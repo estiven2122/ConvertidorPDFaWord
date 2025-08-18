@@ -5,8 +5,8 @@ from watchdog.events import FileSystemEventHandler
 from pdf2docx import Converter
 
 # Configura las carpetas
-DOWNLOADS_FOLDER = r"C:\Users\estiv\Downloads\Convertidor\Entrada"  # Carpeta de entrada para PDFs
-OUTPUT_FOLDER = r"C:\Users\estiv\Downloads\Convertidor\Salida"     # Carpeta de salida para archivos Word
+DOWNLOADS_FOLDER = r"D:\Desarrollos\Convertidor PDF a Wor\ConvertidorPDFaWord\Entrada"  # Carpeta de entrada para PDFs
+OUTPUT_FOLDER = r"D:\Desarrollos\Convertidor PDF a Wor\ConvertidorPDFaWord\Salida"     # Carpeta de salida para archivos Word
 
 # Asegúrate de que la carpeta de salida exista
 if not os.path.exists(OUTPUT_FOLDER):
